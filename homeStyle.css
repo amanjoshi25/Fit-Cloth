@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3ededdb;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.nav-right{margin-right: 20px;}
+.nav-left a, .nav-right a {
+    color: rgb(17, 8, 8);
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.company-name {
+    color: rgb(16, 7, 7);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 100px 20px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
