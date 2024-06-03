@@ -15,7 +15,12 @@ body {
     top: 0;
     z-index: 1000;
 }
-.nav-right{margin-right: 20px;}
+.nav-right{
+    margin-right: 100px;
+}
+.nav-left{
+    margin-left: 100px;
+}
 .nav-left a, .nav-right a {
     color: rgb(17, 8, 8);
     text-decoration: none;
@@ -52,4 +57,126 @@ h1 {
 p {
     font-size: 18px;
     color: #666;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* home section */
+/* home section styling */
+.home{
+    margin-top: 150px;
+}
+.home .title::after {
+    content: "";
+}
+
+.home .home-content .left {
+    width: 45%;
+}
+
+.home .home-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.home .home-content .right {
+    width: 55%;
+}
+
+.home .home-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.home .home-content .right .text span {
+    color: rgb(13, 13, 13);
+}
+
+.home .home-content .right p {
+    text-align: justify;
+}
+
+.home .home-content .right a {
+    display: inline-block;
+
+    background: rgb(13, 13, 13);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(16, 15, 15);
+    transition: all 0.3s ease;
+}
+
+.home .home-content .right a:hover {
+    color: rgb(21, 2, 6);
+    background: none;
+}
+.home,.homeAbout {
+    font-family: 'Poppins', sans-serif;
+}
+.home .home-content,.homeAbout .home-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* home-about styling */
+.homeAbout {padding: 100px;}
+.homeAbout .home-content-about .right {
+    width: 45%;
+}
+
+.homeAbout .home-content-about .right img {
+    padding-left: 30px;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.homeAbout .home-content-about .left {
+    width: 55%;
+}
+
+.homeAbout .home-content-about .left .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.homeAbout .home-content-about .left .text span {
+    color: rgb(13, 13, 13);
+}
+
+.homeAbout .home-content-about .left p {
+    text-align: justify;
+}
+
+.homeAbout .home-content-about .left a {
+    display: inline-block;
+
+    background: rgb(13, 13, 13);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(16, 15, 15);
+    transition: all 0.3s ease;
+}
+
+.homeAbout .home-content-about .left a:hover {
+    color: rgb(21, 2, 6);
+    background: none;
 }
