@@ -1,190 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <link rel="stylesheet" href="homeStyle.css">
+    <link rel="stylesheet" href="homeStyle.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
     <!-- nav section start -->
     <nav class="navbar">
-        <div class="nav-left">
-            <img src="lg.jpg" alt="Company Logo" class="logo">
-            <span class="company-name">Company Name</span>
-        </div>
-        <div class="nav-right">
-            <a href="#home" class="menu-btn">Home</a>
-            <a href="#about" class="menu-btn">About</a>
-            <a href="#services" class="menu-btn">Services</a>
-            <a href="Login.html" class="menu-btn"><i class="fas fa-user"></i></a>
-            <a href="wallet" class="menu-btn"><i class="fas fa-wallet"></i></a>
-        </div>
-        <!-- <div class="menu-btn">
-            <i class="fas fa-bars"> </i>
-        </div> -->
+      <div class="nav-left">
+        <img src="lg.jpg" alt="Company Logo" class="logo" />
+        <span class="company-name">Company Name</span>
+      </div>
+      <div class="nav-right">
+        <a href="#home" class="menu-btn">Home</a>
+        <a href="#about" class="menu-btn">About</a>
+        <a href="#services" class="menu-btn">Services</a>
+        <a href="Login.html" class="menu-btn"><i class="fas fa-user"></i></a>
+        <a href="wallet" class="menu-btn"><i class="fas fa-wallet"></i></a>
+      </div>
     </nav>
-    <!-- <div class="content">
-        <h1>Welcome to Our Company</h1>
-        <p>Here is some content for the home page.</p>
-    </div> -->
 
-<!-- home section starts-->
+    <!-- home section starts -->
     <section class="home" id="home">
-        <div class="max-width">
-            <h2 class="title"></h2>
-
-            <div class="home-content">
-                <div class="column left">
-                    <img src="header_image.png" alt="bit-Emoji">
-                </div>
-                <div class="column right">
-                    <h3>
-                        <address></address>
-                    </h3><br>
-                    <div class="text">Have A Fresh Look Everyday 
-                         <span>Everyday</span>
-                    </div>
-                    <p>A compelling subtitle or tagline that encapsulates the essence of the store.</p>
-                    <!-- <p>Talking home my technical skills, I’ve hands-on experience in programming languages 
-                        like C, C++, Python, and Java. Along with that, 
-                        I also possess knowledge of web technologies like HTML, CSS, Javascript, and ReactNative. 
-                    </p>
-                    <p> Moreover, I also know the basic concepts of databases like SQL, 
-                        and MongoDB as well as the fundamentals of Networking. </p>
-                    <br> -->
-                    <!-- <i class="fas fa-angle-right"></i> -->
-                    <a href="#services" onclick="console.log('I am ready');"> <img src="header_button.png" alt="Book Appoinment">	</a>
-                </div>
+      <div class="max-width">
+        <h2 class="title"></h2>
+        <div class="home-content">
+          <div class="column left">
+            <img src="header_image.png" alt="bit-Emoji" />
+          </div>
+          <div class="column right">
+            <h3>
+              <address></address>
+            </h3>
+            <br />
+            <div class="text">
+              Have A Fresh Look Everyday
+              <span>Everyday</span>
             </div>
+            <p>
+              A compelling subtitle or tagline that encapsulates the essence of
+              the store.
+            </p>
+            <a href="#services" onclick="console.log('I am ready');">
+              <img src="header_button.png" alt="Book Appointment" />
+            </a>
+          </div>
         </div>
+      </div>
     </section>
+
     <section class="homeAbout" id="homeAbout">
-        <div class="max-width">
-            <h2 class="title"></h2>
-
-            <div class="home-content-about">
-                <div class="column left">
-                    <h1 class="title">About</h1>
-                    <h3>
-                        <address>Sonu Guptha</address>
-                    </h3><br>
-                    <div class="text">Have A Fresh Look Everyday 
-                         <span>Everyday</span>
-                    </div>
-                    <p>Nestled in the heart of Ayodhya stands as a beacon of craftsmanship and sartorial elegance. Since 2018, we have been dedicated to providing exceptional tailoring services to our clients.</p>
-                    <!-- <p>Talking home my technical skills, I’ve hands-on experience in programming languages 
-                        like C, C++, Python, and Java. Along with that, 
-                        I also possess knowledge of web technologies like HTML, CSS, Javascript, and ReactNative. 
-                    </p>
-                    <p> Moreover, I also know the basic concepts of databases like SQL, 
-                        and MongoDB as well as the fundamentals of Networking. </p>
-                    <br> -->
-
-                    <a href="#services" onclick="console.log('I am ready');"><img src="know more _button.png" alt="Know More"></a>
-                </div>
-                <div class="column right">
-                    <img src="about us_image.png" alt="bit-Emoji">
-                    
-                </div>
+      <div class="max-width">
+        <h2 class="title"></h2>
+        <div class="home-content-about">
+          <div class="column left">
+            <h1 class="title">About</h1>
+            <h3>
+              <address>Sonu Guptha</address>
+            </h3>
+            <br />
+            <div class="text">
+              Have A Fresh Look Everyday
+              <span>Everyday</span>
             </div>
+            <p>
+              Nestled in the heart of Ayodhya stands as a beacon of
+              craftsmanship and sartorial elegance. Since 2018, we have been
+              dedicated to providing exceptional tailoring services to our
+              clients.
+            </p>
+            <a href="#services" onclick="console.log('I am ready');">
+              <img src="know more _button.png" alt="Know More" />
+            </a>
+          </div>
+          <div class="column right">
+            <img src="about us_image.png" alt="bit-Emoji" />
+          </div>
         </div>
+      </div>
     </section>
-<!--Design section start-->
-<section class="Design" id="Design">
-    <div class="max-width">
-        <h2 class="title">Design Loo    k </h2>
-        <div class="carousel owl-carousel">
-           
-            
-            
-            <div class="card">
-                <div class="box">
-                    <img src="header_image.png" alt="jHDSJ">
-                    <br>
-                    <di class="text">Java</di>
-                    <!-- <p>Maintained consistent effort with daily programming batches on LeetCode for 50 days, fostering skill development and problem-solving proficiency.</p> -->
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img   src="pythn.jpg" alt="">
-                    <br>
-                    <di class="text">Python</di>
-                    <!-- <p>Maintained consistent effort with daily programming batches on LeetCode for 50 days, fostering skill development and problem-solving proficiency.</p> -->
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img  src="workshopML.jpg" alt="">
-                    <br>
-                    <di class="text">“ML Workshop</di>
-                    <!-- <p>Maintained consistent effort with daily programming batches on LeetCode for 50 days, fostering skill development and problem-solving proficiency.</p> -->
-                </div>
-            </div>
 
-            <div class="card">
-                <div class="box">
-                    <img   src="cpp.jpg" alt="">
-                    <br>
-                    <di class="text">Cpp</di>
-                    <!-- <p>Maintained consistent effort with daily programming batches on LeetCode for 50 days, fostering skill development and problem-solving proficiency.</p> -->
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img   src="IIT Madras.jpg" alt="IIT Madras">
-                    <br>
-                    <di class="text">IIT Madras</di>
-                    <!-- <p>Dedicated countless hours to Python game development, focusing on complex details and optimizations. Focused on improving mechanics, graphics, and gameplay for an immersive player experience.</p> -->
-                </div>
-            </div>
-                            <div class="card">
-                <div class="box">
-                    <img   src="Py-GAME.png" alt="">
-                    <br>
-                    <di class="text">Py Game</di>
-                    <!-- <p>Certified in MySQL – the backbone of modern data management.
-                     Equipped with the expertise to design, optimize, and manage robust databases. Ready to power your projects with seamless data solutions.</p> -->
-                </div>
-            </div>
-            <div class="card">
-                <div class="box"> <img  src="Patent.png" alt="">
-                    <br>
-                    <di class="text">Patent</di>
-                    <!-- <p>A unique idea on “Machine Learning -Based Automation Wireless Chair and
-                        Desk Adjustment System", Sensor and vision inspired “IOT “based automatic
-                        system adjust of chair according to individual -->
-                </div>
-
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img  class="skill-img" src="download.png" alt="">
-                    <br>
-                    <di class="text">Consistency</di>
-                    <!-- <p>Maintained consistent effort with daily programming batches on LeetCode for 50 days, fostering skill development and problem-solving proficiency.</p> -->
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img  class="skill-img" src="leetcde.png" alt="">
-                    <br>
-                    <di class="text">100 Days</di>
-                    <!-- <p>Maintained consistent effort with daily programming batches on LeetCode for 50 days, fostering skill development and problem-solving proficiency.</p> -->
-                </div>
-            </div>
+    <!-- Designs section starts -->
+    <section class="designs" id="designs">
+      <div class="max-width">
+        <h2 class="title">Designs</h2>
+        <div class="carousel owl-carousel designs-carousel">
+          <div class="card">
+            <img
+              src="tailor_website\tailor_website\customer1.png"
+              alt="Design 1"
+            />
+            <p>Design Description 1</p>
+          </div>
+          <div class="card">
+            <img
+              src="tailor_website\tailor_website\customer2.png"
+              alt="Design 2"
+            />
+            <p>Design Description 2</p>
+          </div>
+          <div class="card">
+            <img
+              src="tailor_website\tailor_website\customer3.png"
+              alt="Design 3"
+            />
+            <p>Design Description 3</p>
+          </div>
+          <div class="card">
+            <img
+              src="tailor_website\tailor_website\customer4.png"
+              alt="Design 3"
+            />
+            <p>Design Description 3</p>
+          </div>
+          <div class="card">
+            <img
+              src="tailor_website\tailor_website\customer3.png"
+              alt="Design 3"
+            />
+            <p>Design Description 3</p>
+          </div>
+          <div class="card">
+            <img
+              src="tailor_website\tailor_website\customer4.png"
+              alt="Design 3"
+            />
+            <p>Design Description 3</p>
+          </div>
+          <!-- Add more cards as needed -->
         </div>
-    </div>
-</section>
+      </div>
+    </section>
+    <!-- Designs section ends -->
+
     <script src="homeScript.js"></script>
-</body>
+  </body>
 </html>
